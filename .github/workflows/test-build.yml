@@ -28,8 +28,8 @@ jobs:
         uses: android-actions/setup-android@v3
 
       - name: Initialize Android Shell
-        run: |
-          npm install @capacitor/core @capacitor/cli @value/android
+run: |
+  npm install @capacitor/core @capacitor/cli @capacitor/android
           npx cap add android
           npx cap sync android
 
